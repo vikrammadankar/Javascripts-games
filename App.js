@@ -113,4 +113,5 @@ function rpsGame(yourChoice) {
 
 //Challenge:4 Change the color of all buttons
 
-var all_buttons 
+var all_buttons = document.getElementsByTagName('button');
+console.log(all_buttons);
